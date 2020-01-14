@@ -1,2 +1,0 @@
-# CyberGeloSorveteriaReact
-Created with CodeSandbox
