@@ -7,16 +7,16 @@ function Delivery() {
     <div id="delivery" className="container themed-container">
       <section className="row mb-3">
         <div className="col-md-4 themed-grid-col">
-          <img className="img-fluid" src={img} alt="" />
+          <img src={img} alt="" />
         </div>
         <div className="col-md-8 themed-grid-col">
           <h2>Delivery</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nisi
-            placeat magnam error, similique, quaerat aliquid ratione dolores
-            accusamus doloremque mollitia ratione dolores accusamus commodi? Ab,
-            unde. Temporibus nostrum aspernatur accusantium. Lorem ipsum dolor
-            sit amet consectetur adipisicing elit. Libero itaque quaerat.
+            A Cyber Gelo também disponibiliza todos os seus produtos em
+            embalagens próprias para revenda ou para abastecimento em bares,
+            restaurantes e hotéis. Para saber mais, entre contato com o
+            Departamento Comercial através do telefone 33 3333.3333 | 3333 3333.
+            Se preferir, encaminhe e-mail para comercial@cybergelo.com.br
           </p>
         </div>
       </section>

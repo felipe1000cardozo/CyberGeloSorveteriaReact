@@ -16,7 +16,7 @@ let Header = () => {
       <div className="center bg-principal" id="menu">
         <ul className="container mb-0">
           <li>
-            <HashLink smooth to="#header">
+            <HashLink smooth to="#app">
               Home
             </HashLink>
           </li>

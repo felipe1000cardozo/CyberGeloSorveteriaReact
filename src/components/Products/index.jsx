@@ -8,21 +8,30 @@ function Products() {
     <div id="products">
       <section className="container center">
         <div className="relative">
-          <img
-            src={img1}
-            className="img-fluid"
-            alt="Imagem de uma taça de sorvete"
-          />
-          <img
-            src={img2}
-            className="img-fluid"
-            alt="Imagem de um pote de sorvete"
-          />
-          <img
-            src={img3}
-            className="img-fluid"
-            alt="Imagem de um sorvete com casca"
-          />
+          <div className="img-container">
+            <span>Taça</span>
+            <img
+              src={img1}
+              className="img-fluid"
+              alt="Imagem de uma taça de sorvete"
+            />
+          </div>
+          <div className="img-container">
+            <span>Pote</span>
+            <img
+              src={img2}
+              className="img-fluid"
+              alt="Imagem de um pote de sorvete"
+            />
+          </div>
+          <div className="img-container">
+            <span>Casca</span>
+            <img
+              src={img3}
+              className="img-fluid"
+              alt="Imagem de um sorvete com casca"
+            />
+          </div>
         </div>
       </section>
       <span id="anchor-delivery" className="anchor" />
