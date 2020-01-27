@@ -2,15 +2,15 @@ import React from "react";
 
 function Contact() {
   return (
-    <div id="contact" className="container themed-container">
-      <section className="row my-3">
+    <div id="contact">
+      <section className="row my-3 container themed-container">
         <div className="col-md-4 themed-grid-col">
           <h2>Contato</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi hic
-            necessitatibus labore neque ipsum, eius pariatur quisquam alias
-            eveniet earum possimus quae, nobis quis asperiores omnis aut dolor!
-            Voluptatum, neque a quaerat?
+            Quer saber mais sobre o nosso processo de produção? Contar como foi
+            sua experiência na Cyber Gelo ? Saber sobre a tabela nutricional dos
+            nossos produtos? Preencha o formulário que será um prazer em
+            responde-lo!
           </p>
         </div>
         <div className="col-md-8 themed-grid-col">
@@ -61,7 +61,7 @@ function Contact() {
                 />
               </div>
             </div>
-            <input value="Enviar" type="button" />
+            <button type="button">Enviar</button>
           </form>
         </div>
       </section>
